@@ -7,9 +7,9 @@ public class DataOfSquare {
     SquarePanel square;
     public DataOfSquare(int col){
 
-        C.add(Color.darkGray);
+        C.add(Color.BLACK);
         C.add(Color.BLUE);
-        C.add(Color.white);
+        C.add(Color.ORANGE);
         color = col;
         square = new SquarePanel(C.get(color));
     }
